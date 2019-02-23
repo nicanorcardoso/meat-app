@@ -18,7 +18,7 @@ export class RestaurantDetailComponent implements OnInit {
 
     this.restaurantsService.restaurantById(this.route.snapshot.params['id'])
       .subscribe(restaurant => this.restaurant = restaurant)
-
+      
   }
 
 }
